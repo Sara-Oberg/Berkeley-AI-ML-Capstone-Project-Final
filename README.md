@@ -25,7 +25,7 @@ Can we predict heart disease in individuals using their basic personal and healt
 #### Data Sources
 
 The dataset is from Kaggle:
-Heart Disease Dataset – [Kaggle](https://www.kaggle.com/datasets/mirzahasnine/heart-disease-dataset)
+Heart Disease Dataset: [Kaggle](https://www.kaggle.com/datasets/mirzahasnine/heart-disease-dataset)
 It includes information such as age, blood pressure, cholesterol, glucose, smoking habits, and whether the individual had a heart disease or stroke.
 
 #### Methodology
@@ -54,22 +54,32 @@ The project follows a structured ML pipeline, including:
     
 #### Results
 
-In this project, we aimed to predict the risk of heart disease or stroke using different machine learning models based on patient health data. We cleaned the data, handled missing values and outliers, and tested several models: Logistic Regression, SVM, Random Forest, K-Nearest Neighbors, XGBoost, and MLP.
-After comparing their performance using accuracy, recall, F1 score, and ROC AUC, we selected Support Vector Machine (SVM) as the best model.
+In this project, I aimed to predict the risk of heart disease using different machine learning models based on patient health data. I cleaned the data, handled missing values and outliers, and tested several models: Logistic Regression, Naive Bayes, Support Vector Machine (SVM), Random Forest, K-Nearest Neighbors, XGBoost, and MLP.
 
-Why SVM?
+After comparing their performance using accuracy, recall, F1 score, and ROC AUC, I selected Support Vector Machine (SVM) as the best model.
+
+# Why SVM?
+
 Recall: 0.685, this means it correctly identified about 69% of true heart disease/stroke cases.
+
 F1 Score: 0.326, this shows a balance between precision and recall.
+
 ROC AUC: 0.722, this indicates the model is fairly good at distinguishing between positive and negative cases.
+
 Other models like XGBoost and Random Forest had higher accuracy but much lower recall. This means they often missed actual cases, which is risky in health predictions. Therefore, SVM gives a better trade-off, especially when recall is more important.
 
-Visual Results:
+# Visual Results:
+
 The confusion matrix showed that SVM correctly predicted most non-disease cases and a good number of true disease cases.
+
 The ROC curve showed good separation from the random guess line.
+
 The SHAP analysis revealed that age, systolic blood pressure, and cigarettes per day had the most influence on predictions.
+
 The residual plot showed most predictions were accurate with few errors.
 
-Conclusion:
+# Conclusion:
+
 SVM performed best for this classification task, especially because of its high recall. This model can be useful in real-world settings to support early detection of heart disease or stroke risk, which can help prevent serious outcomes.
 
 #### Next steps
