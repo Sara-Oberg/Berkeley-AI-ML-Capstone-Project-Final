@@ -96,3 +96,7 @@ https://github.com/Sara-Oberg/Berkeley-AI-ML-Capstone-Project-Final/tree/main/im
 For questions or collaboration opportunities, feel free to contact me at
 
 pashmine (at) email.de
+
+or
+
+https://www.linkedin.com/in/analogasicdesign/
