@@ -35,6 +35,34 @@ Model Training: Logistic Regression, Naive Bayes, SVM, Random Forest, KNN, XGBoo
 Hyperparameter Tuning: GridSearchCV
 Evaluation: Accuracy, Recall, F1 Score, ROC AUC, Confusion Matrices, SHAP analysis
 
+#### Project Workflow
+
+The project follows a structured ML pipeline, including:
+
+1. Import libraries
+2. Data Loading
+3. Exploratory Data
+4. Evaluate Data Analyziz
+  4.1. Evaluation Data Analysis Before Cleaning
+  4.2. Data Cleaning
+  4.3 Outlier Analyziz
+  4.4 Evaluation Data Analysis After Cleaning
+5. Feature Engineering
+6. Train/Test split
+7. Regression Modeling
+8. Other Models
+  8.1. Naive Bayes
+  8.2 SVM Pipeline
+  8.3 Random Forest
+  8.4 K-Nearest Neighbors
+  8.5 XGB Model
+  8.6 MLP Classifier
+  8.7 Comparison between models
+9. Hyperparameter tuning
+10. Selecting best model
+11. Model interpretation
+12. Results
+    
 #### Results
 
 In this project, we aimed to predict the risk of heart disease or stroke using different machine learning models based on patient health data. We cleaned the data, handled missing values and outliers, and tested several models: Logistic Regression, SVM, Random Forest, K-Nearest Neighbors, XGBoost, and MLP.
@@ -62,6 +90,15 @@ Add external clinical datasets to validate generalizability.
 Build a simple interactive dashboard or app for user-friendly predictions.
 
 #### Outline of project
+
+https://github.com/Sara-Oberg/Berkeley-AI-ML-Capstone-Project-Final/blob/main/Heart_Disease_Capstone_Project_Sara_Obergassel_24Mai2025_Final.ipynb
+
+https://github.com/Sara-Oberg/Berkeley-AI-ML-Capstone-Project-Final/blob/main/heart_disease.csv
+
+https://github.com/Sara-Oberg/Berkeley-AI-ML-Capstone-Project-Final/tree/main/data
+
+https://github.com/Sara-Oberg/Berkeley-AI-ML-Capstone-Project-Final/tree/main/images
+
 
 ##### Contact and Further Information
 
