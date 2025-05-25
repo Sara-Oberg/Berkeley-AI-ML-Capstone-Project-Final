@@ -43,25 +43,38 @@ The project follows a structured ML pipeline, including:
 2. Data Loading
 3. Exploratory Data
 4. Evaluate Data Analyziz
+5. 
   4.1. Evaluation Data Analysis Before Cleaning
+   
   4.2. Data Cleaning
+  
   4.3 Outlier Analyziz
+  
   4.4 Evaluation Data Analysis After Cleaning
 5. Feature Engineering
 6. Train/Test split
 7. Regression Modeling
+
 8. Other Models
+
   8.1. Naive Bayes
+  
   8.2 SVM Pipeline
+  
   8.3 Random Forest
+  
   8.4 K-Nearest Neighbors
+  
   8.5 XGB Model
+
   8.6 MLP Classifier
+  
   8.7 Comparison between models
-9. Hyperparameter tuning
-10. Selecting best model
-11. Model interpretation
-12. Results
+  
+10. Hyperparameter tuning
+11. Selecting best model
+12. Model interpretation
+13. Results
     
 #### Results
 
