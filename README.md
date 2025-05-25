@@ -74,9 +74,11 @@ SVM performed best for this classification task, especially because of its high 
 
 #### Next steps
 
-Try SMOTE or other resampling methods to improve recall further.
-Add external clinical datasets to validate generalizability.
-Build a simple interactive dashboard or app for user-friendly predictions.
+- Try SMOTE or other resampling methods to improve recall further.
+  
+- Add external clinical datasets to validate generalizability.
+  
+- Build a simple interactive dashboard or app for user-friendly predictions.
 
 #### Outline of project
 
